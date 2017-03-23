@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Epita Connect Example - Logged</title>
+</head>
+<body>
+    <h1>Hello {{ user.first_name }}</h1>
+    <p>Username: {{ user.username }}</p>
+    <p>Promo: {{ extra_data.promo }}</p>
+    <p><a href="{% url "logout" %}">Logout</a></p>
+</body>
+</html>
